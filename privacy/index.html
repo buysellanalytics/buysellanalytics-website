@@ -107,7 +107,7 @@ html.nos{overflow:hidden}
 <ul>
 <li><b>Account:</b> your email address and a one-way hash of a key derived from your password. We never receive or store the password itself.</li>
 <li><b>Your journal:</b> trades, reviews, notes, screenshots and settings — stored on our server only in encrypted form. The encryption key is derived on your device from your password; without it the data cannot be read, including by us.</li>
-<li><b>Exchange keys:</b> stored inside the same encrypted vault. Requests to exchanges are signed and sent from your browser directly to the exchange. The exceptions are the OKX Earn section and the Binance account section (key permission check, deposits and withdrawals), which these exchanges do not serve to web pages: those requests are signed in your browser and are read-only; they pass through our server without being stored, and your secret key never leaves your device.</li>
+<li><b>Exchange keys:</b> stored inside the same encrypted vault. Requests to exchanges are signed and sent from your browser directly to the exchange. The one exception is the OKX Earn section, which OKX does not serve to web pages: those signed read-only requests pass through our server without being stored.</li>
 <li><b>Devices:</b> device name, browser, device type and last-seen time, so you can see and close access to your devices.</li>
 <li><b>Plan and payments:</b> your plan, its validity and payment records (amount, network and blockchain transaction).</li>
 <li><b>Email codes:</b> one-time codes for sign-up and password reset, deleted after use or expiry.</li>
